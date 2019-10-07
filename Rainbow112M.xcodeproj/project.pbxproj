@@ -12,6 +12,8 @@
 		FCEB4E2E234B99CA0017945C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEB4E2D234B99CA0017945C /* Assets.xcassets */; };
 		FCEB4E31234B99CA0017945C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEB4E2F234B99CA0017945C /* LaunchScreen.storyboard */; };
 		FCEB4E39234BA0960017945C /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB4E38234BA0960017945C /* ColorsTableViewController.swift */; };
+		FCEB4E3B234BABDA0017945C /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB4E3A234BABDA0017945C /* MyColor.swift */; };
+		FCEB4E3D234BAFC30017945C /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB4E3C234BAFC30017945C /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FCEB4E30234B99CA0017945C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCEB4E32234B99CA0017945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCEB4E38234BA0960017945C /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
+		FCEB4E3A234BABDA0017945C /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		FCEB4E3C234BAFC30017945C /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				FCEB4E26234B99C50017945C /* AppDelegate.swift */,
+				FCEB4E3C234BAFC30017945C /* ColorDetailViewController.swift */,
 				FCEB4E38234BA0960017945C /* ColorsTableViewController.swift */,
+				FCEB4E3A234BABDA0017945C /* MyColor.swift */,
 				FCEB4E2A234B99C50017945C /* Main.storyboard */,
 				FCEB4E2D234B99CA0017945C /* Assets.xcassets */,
 				FCEB4E2F234B99CA0017945C /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				FCEB4E27234B99C50017945C /* AppDelegate.swift in Sources */,
 				FCEB4E39234BA0960017945C /* ColorsTableViewController.swift in Sources */,
+				FCEB4E3B234BABDA0017945C /* MyColor.swift in Sources */,
+				FCEB4E3D234BAFC30017945C /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
