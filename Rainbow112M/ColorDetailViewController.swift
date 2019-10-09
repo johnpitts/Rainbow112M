@@ -24,6 +24,8 @@ class ColorDetailViewController: UIViewController {
         
         if let myColor = myColor {
             title = myColor.name
+            
+            // The nav bar is either white (translucent not checked) or 0.8 alpha white (all colors go light-version, like light red) if translucent is checked.  This is a bug as entire screen should be same color including the nav bar.  So what's going wrong in MY XCode?
             view.backgroundColor = myColor.color
         }
     }
